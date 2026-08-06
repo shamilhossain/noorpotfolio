@@ -1,6 +1,16 @@
 @import "tailwindcss";
 
 @layer base {
+  html.light-theme {
+    filter: invert(1) hue-rotate(180deg);
+  }
+
+  html.light-theme img,
+  html.light-theme video,
+  html.light-theme .spotlight-glow {
+    filter: invert(1) hue-rotate(180deg);
+  }
+
   html {
     scroll-behavior: smooth;
     color-scheme: dark;

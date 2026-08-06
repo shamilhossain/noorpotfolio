@@ -17,7 +17,7 @@ function HeroSection() {
         >
           <motion.div className="space-y-8" variants={fadeInLeft}>
             <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-xs uppercase tracking-[0.35em] text-gray-300 backdrop-blur-sm">
-              HAPPY TO SEE YOU HERE 
+              HAPPY TO SEE YOU HERE
             </div>
 
             <div className="space-y-5">
@@ -31,7 +31,7 @@ function HeroSection() {
                 className="max-w-3xl text-lg font-medium text-gray-300 sm:text-xl"
                 variants={fadeInUp}
               >
-                Computer Science Engineer | AI &amp; ML Enthusiast
+                Native AI Software Engineer specializing in AI engineering, explainable AI frameworks, deep learning, and intelligent system architecture.
               </motion.p>
             </div>
 
