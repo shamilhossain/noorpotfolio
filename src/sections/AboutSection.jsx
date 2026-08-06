@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import heroImage from '../assets/hero.png'
+import profileImage from '../assets/profile.jpg'
 import { fadeInLeft, fadeInRight, fadeInUp } from '../utils/animations'
 
 const highlightCards = [
@@ -22,7 +22,7 @@ function AboutSection() {
     <section id="about" className="border-b border-white/10">
       <div className="mx-auto grid w-full max-w-6xl gap-12 px-6 py-20 lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
         <motion.div
-          className="relative"
+          className="relative w-fit justify-self-center lg:justify-self-end"
           initial="initial"
           whileInView="animate"
           viewport={{ once: true, amount: 0.35 }}
@@ -33,9 +33,9 @@ function AboutSection() {
             <div className="relative overflow-hidden rounded-[1.5rem] border border-white/10 bg-black/30">
               <div className="absolute inset-0 bg-[linear-gradient(135deg,rgba(59,130,246,0.12),transparent_40%,rgba(168,85,247,0.12))]" />
               <img
-                src={heroImage}
+                src={profileImage}
                 alt="Portrait of Shamil Bin Hossain"
-                className="relative h-[420px] w-full object-cover object-center md:h-[560px]"
+                className="relative h-[360px] w-auto rounded-[1.5rem] object-cover md:h-[480px]"
               />
             </div>
           </div>
